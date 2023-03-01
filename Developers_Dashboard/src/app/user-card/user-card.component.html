@@ -1,0 +1,16 @@
+<div id="center">
+    <div class="hstack main" id="main">
+        <div>
+            <div class="hstack">
+                <h1>{{userData.name}}</h1>
+                <button>Follow</button>
+            </div>
+            <h2>{{userData.role}}</h2>
+            <div class="hstack skills">
+                <p *ngFor="let skill of userData.skills">{{skill}}</p>
+            
+            </div>
+        </div>
+        <img [src]="userData.img" alt="">
+    </div>
+</div>
