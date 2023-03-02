@@ -1,0 +1,34 @@
+.hstack{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 300px;
+    padding: 10px;
+    height: 50px;
+    border: 2px solid white;
+    margin: 0px;
+    align-items: center;
+    border-radius: 20px;
+    max-height: 30px;
+    align-content: center;
+}
+button{
+    height: 35px;
+    border: none;
+    margin: 0px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.pending{
+ color: white;
+ text-decoration: none;
+}
+.done{
+    margin: 0px;
+    text-decoration:line-through;
+
+    color: green;
+    margin: 0px;
+    
+    
+}

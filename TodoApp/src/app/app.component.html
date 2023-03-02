@@ -1,0 +1,17 @@
+<div id="center">
+<div id="main">
+  <h1 id="title">TODO APP USING ANGULAR</h1>
+  <div class="hstack addtask">
+    <input type="text" name="Task" id="task" placeholder="Type Task" #add>
+    <button (click)="addTask(add.value)">Add</button>
+  </div>
+
+  <div id="allTask">
+    <app-task-card *ngFor="let task of taskList" [task]="task" (removeEvt)="afterRemoveClick($event)"></app-task-card>
+      
+  </div>
+  <div id="footer">
+    <p>Total Task : {{taskList.length}}</p>
+  </div>
+</div>
+</div>

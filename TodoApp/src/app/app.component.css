@@ -1,0 +1,69 @@
+#center{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+  padding-top: 50px;
+
+}
+#center *{
+    margin: auto;
+
+}
+.hstack{
+    display: flex;
+    flex-direction: row;
+}
+#main{
+    background-color: rgb(16,30,48);
+    height: 500px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: auto;
+    min-width: 350px;
+    position: relative;
+    max-width: 350px;
+    overflow-y: scroll;
+ 
+    
+}
+#allTask{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+}
+.addtask button{
+    width: 80px;
+    font-size: 17px;
+    height: 35px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.addtask input{
+    height: 35px;
+    border: none;
+    outline: none;
+    width: 220px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+#title{
+    color: white;
+    padding-bottom: 20px;
+    font-size: 19px;
+}
+#footer{
+    position: absolute;
+    bottom: 10px;
+    right: 150px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    border:2px solid silver;
+    border-radius: 8px;
+}
