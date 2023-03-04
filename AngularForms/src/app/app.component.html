@@ -1,0 +1,9 @@
+<h1>Forms in Angular</h1>
+
+<!-- Template Driven From -->
+
+<form #useForm="ngForm" (ngSubmit)="formClick(useForm.value)">
+  <input type="text" name="name" placeholder="Enter Your name" ngModel>
+  <input type="text" name="Abouts" placeholder="About?" ngModel>
+  <button>Submit</button>
+</form>
